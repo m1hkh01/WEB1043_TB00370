@@ -1,0 +1,132 @@
+body {
+    background-color: white;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.slider {
+    position: relative;
+    width: 50%;
+    max-width: 600px;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.slides {
+    display: flex;
+}
+
+.slides:hover {
+    transform: scale(1.25);
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 480px;
+}
+
+button.prev {
+    left: 200px;
+}
+
+button.next {
+    right: 700px;
+}
+
+button.prev:hover, button.next:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.product-info {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+    position: relative;
+    left: 150px;
+    border: 2px solid #fce48c;
+    background-color: #fcfcec;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.add-to-cart {
+    color: #d01c24;
+    background-color: #fffcec;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #d01c24;
+    font-weight: bold;
+    font-family: Nunito;
+}
+
+.add-to-cart:hover {
+    background-color: #ffe4e4;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.product-priceorg {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 20px;
+}
+
+.product-name {
+    font-size: 28px;
+    margin: 10px 0;
+    color: black;
+}
+
+.product-description {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.685);
+    margin-bottom: 30px;
+}
+
+.product-price {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    margin: 10px 0 20px 0;
+}

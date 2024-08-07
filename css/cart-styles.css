@@ -1,0 +1,59 @@
+.cart-container {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 0 400px 210px 400px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0 0 50px 50px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.pd-img {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.hr-cart {
+    max-width: 620px;
+    position: relative;
+    left: 0;
+    top: 10px;
+    margin: 20px 0;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+button {
+    border: 2px solid #d01c24;
+    color: #d01c24;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 30px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: whitesmoke;
+}
+
+.remove svg {
+    position: relative;
+    top: 1px;
+}
+
+#total-price {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
