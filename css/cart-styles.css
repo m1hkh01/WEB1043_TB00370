@@ -2,13 +2,23 @@
     text-align: left;
     justify-content: center;
     align-items: center;
-    margin: 0 400px 210px 400px;
+    margin: 0 300px 210px 300px;
     border: 2px solid white;
     border-radius: 20px;
     background-color: white;
     padding: 0 0 50px 50px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 1000px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+}
+
+.info-pdcart {
+    margin: 20px 100px;
+
 }
 
 body {
@@ -21,10 +31,10 @@ body {
 }
 
 .hr-cart {
-    max-width: 620px;
+    width: 850px;
     position: relative;
-    left: 0;
-    top: 10px;
+    right: 295px;
+    top: 50px;
     margin: 20px 0;
     border: 1px solid gray;
     border-radius: 10px;
@@ -50,8 +60,9 @@ button:hover {
     top: 1px;
 }
 
-#total-price {
-    font-size: 20px;
+.text-total {
+    margin-top: 50px;
+    font-size: 24px;
 }
 
 h1 {
