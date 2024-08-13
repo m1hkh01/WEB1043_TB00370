@@ -27,6 +27,8 @@ body {
 .pd-img {
     max-width: 200px;
     margin-top: 20px;
+    position: relative;
+    left: 30px;
 }
 
 .hr-cart {
