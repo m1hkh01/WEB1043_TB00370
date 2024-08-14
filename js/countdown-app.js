@@ -1,4 +1,4 @@
-var countDownDate = new Date("Aug 15, 2024 23:59:59").getTime();
+var countDownDate = new Date("Aug 16, 2024 23:59:59").getTime();
 
 function formatNumber(num) {
     return num < 10 ? "0" + num : num;
